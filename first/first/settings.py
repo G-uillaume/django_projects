@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'forums.apps.ForumsConfig',
     'pics.apps.PicsConfig',
     'chat.apps.ChatConfig',
+    'favs.apps.FavsConfig',
 ]
 
 # When we get to tagging

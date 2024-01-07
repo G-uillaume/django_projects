@@ -21,6 +21,7 @@ from django.urls import include, path, re_path
 urlpatterns = [
     path('', include("home.urls")),
     path('accounts/', include('django.contrib.auth.urls')),
+    path('favs', include("favs.urls")),
     path('menu/', include("menu.urls")),
     path('pics/', include("pics.urls")),
     path('forums/', include("forums.urls")),
