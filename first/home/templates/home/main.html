@@ -12,7 +12,7 @@
     <ul>
         <li><b>users</b> - One table model / SQL - uses the django shell
             and <a href="admin" target="_blank">admin</a></li>
-        <li><b>tracks</b> -  Many to one models / SQL - uses the django shell 
+        <li><b>tracks</b> -  Many to one models / SQL - uses the django shell
             and <a href="admin" target="_blank">admin</a></li>
         <li><b>many</b> -  Many to many models - Loading data from a script
             and <a href="admin" target="_blank">admin</a>
@@ -35,7 +35,7 @@
         <li><a href="chat" target="_blank">chat</a> - JSON and Chat
             (<a href="https://www.youtube.com/watch?v=v5CKyLS701M&list=PLlRFEj9H3Oj5e-EH0t3kXrcdygrL9-u-Z&index=90" target="_blank">Walkthrough</a>)
         </li>
-        <li>Add a <a href="/favicon.ico" target="_blank">favicon</a> 
+        <li>Add a <a href="/favicon.ico" target="_blank">favicon</a>
             in <b>samples/urls.py</b> and <b>home/static</b>
             (<a href="https://favicon.io/favicon-converter/" target="_blank">Make your own</a>,
             <a href="https://www.youtube.com/watch?v=C1WGD5hFdT8&list=PLlRFEj9H3Oj5e-EH0t3kXrcdygrL9-u-Z&index=91" target="_blank">Walkthrough</a>)
@@ -51,7 +51,7 @@
         <li>A multi-user blogging system
             (<a href="https://www.youtube.com/watch?v=4pOExZHnL9k&list=PLlRFEj9H3Oj5e-EH0t3kXrcdygrL9-u-Z&index=94" target="_blank">Walkthrough</a>)
         </li>
-        <li>Using the Django 
+        <li>Using the Django
             <a href="https://django-taggit.readthedocs.io/en/stable/" target="_blank">Taggit</a> library
         </li>
         <!--  Not quite right
@@ -65,7 +65,7 @@
 {% if user.is_authenticated %}
 <p>Authenticated as
 <pre>
-Name: {{ user.get_full_name }}
+Name: {{ user.get_username }}
 Email: {{ user.email }}
 Id: {{ user.id }}
 <!-- https://stackoverflow.com/questions/26879011/check-if-current-user-is-logged-in-using-any-django-social-auth-provider -->
